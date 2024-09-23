@@ -8,16 +8,18 @@
     width: 1500px;
     height: 161px;
     background: #fff;
-    border: 2px solid #000;
-    box-shadow: 3px;
+    border: 2px solid hsl(0, 0%, 0%, 0.1);
+    /* bottom-shadow: 2px solid yellow; */
+
+    display: grid;
+
 }
 
 .first-line {
     width: 1500px;
     height: 50px;
-    padding: 22px 0 0 0.01px;
+    padding: 20px 20px 60px 0.01px;
     display: flex;
-    border-bottom-style: 2px solid black;
 }
 
 .city {
@@ -43,7 +45,7 @@
     height: 9px;
     color: #b3b3b3;
     font-size: 13px;
-    padding: 12px 0 0 10px;
+    padding: 12px 0 0 15px;
 }
 
 .temperature {
@@ -71,7 +73,6 @@
 }
 
 .head-text {
-    /* width: 400px; */
     height: 24px;
     padding: 23px 55px 5px 70px;
     font-family: Golos;
@@ -114,32 +115,29 @@
 }
 
 .second-line {
-    border-top-color: aqua;
-    padding: 60px 0 0 31px;
-    display: flex; 
-    bottom: 2px solid red ;
+    width: 1498px;
+    padding: 0px 0 0 31px;
+    display: flex;
+    border-top: 2px solid hsl(0, 0%, 0%, 0.1);
 }
 
 
 .fa-bars {
-    padding: 13px 5px 0 10px;
+    height: 75px;
+    padding: 30px 30px 0 12px;
     color: #999999;
-    border-style: none;
+    border-right: 2px solid hsl(0, 0%, 0%, 0.1);
 }
 
 .second-line ul {
-    padding: 0px 0 0 350px;
+    padding: 20px 200px 0 350px;
     display: flex;
     justify-content: space-between;
-
     list-style: none;
-
-
-
 }
 
 .second-line li a {
-    padding-right: 30px;
+    padding-right: 31px;
     font-family: Golos;
     font-size: 16px;
     font-weight: 400;
@@ -147,16 +145,95 @@
     text-align: left;
     color: #76767A;
     text-decoration: none;
-
 }
 
 .second-line .active {
-    text-shadow: 2px solid #1875F0;
     color: #333333;
-
+    padding-bottom: 25px;
+    border-bottom: 2px solid #1875F0;
+    padding-right: 0px;
 
 }
 
 .fa-magnifying-glass {
-    padding: 10px 0 0 220px;
+    padding: 30px 0 0 30px;
+    border-left: 2px solid hsl(0, 0%, 0%, 0.1);
+}
+
+.second-line .left {
+    padding-left: 25px;
+
+}
+
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 298px;
+    height: 32px;
+    top: 194px;
+    padding-left: 229px;
+    opacity: 0px;
+    font-family: Golos;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+
+}
+
+.pages a {
+    text-decoration: none;
+}
+
+ul li .active2 {
+    text-decoration: underline;
+    border: 1px solid #E1E1E1;
+    color: #333333;
+
+}
+
+ul li .second {
+    color: #333333;
+
+}
+
+ul li .third {
+    color: #76767A;
+
+}
+
+.main {
+    width: 848px;
+    height: 1056px;
+    top: 254px;
+    left: 230px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid #1875F0;
+}
+
+.arxiv {
+    width: 72px;
+    height: 24px;
+    top: 254px;
+    left: 230px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Golos;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+.tree {
+    width: 410px;
+    height: 255px;
+    top: 298px;
+    left: 230px;
+    gap: 0px;
+    opacity: 0px;
 }
