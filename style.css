@@ -167,20 +167,18 @@
 
 
 .pages {
-    display: flex;
-    justify-content: space-between;
+    display: flex;   
     list-style: none;
-    width: 298px;
+    width: 400px;
     height: 32px;
-    top: 194px;
-    padding-left: 229px;
+    padding: 0 200px 50px 0;
     opacity: 0px;
     font-family: Golos;
     font-size: 12px;
     font-weight: 400;
     line-height: 50px;
-    text-align: left;
-
+    text-align: left;    
+    border-bottom: 2px solid #000;
 }
 
 .pages a {
@@ -205,35 +203,47 @@ ul li .third {
 }
 
 .main {
-    width: 848px;
-    height: 1056px;
-    top: 254px;
-    left: 230px;
-    gap: 0px;
-    opacity: 0px;
-    border: 1px solid #1875F0;
+    width: 849px;
+    height: 772px;
+    padding: 0px 0 0 60px;
+    margin: 30px 0 0 350px ;
+    border: 1px solid #1875F0; 
 }
+
 
 .arxiv {
     width: 72px;
     height: 24px;
-    top: 254px;
-    left: 230px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Golos;
+    /* top: 254px; */
+    /* left: 230px; */
+        font-family: Golos;
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #333333;
+    padding-top: 20px;
 }
 
-.tree {
-    width: 410px;
+.photos{
+display: flex;
+padding-top: 50px ;
+}
+
+.tree .clock {
+    width: 200px;
     height: 255px;
-    top: 298px;
-    left: 230px;
-    gap: 0px;
-    opacity: 0px;
+}
+
+
+.video .video-concratulate {
+    /* background-image:url(https://cdn.pixabay.com/photo/2022/02/24/14/28/art-7032570_1280.jpg); */
+    width: 200px;
+    height: 255px;
+    /* padding: 50px 0 0 50px; */
+   
+}
+
+.second-photo {
+display: flex;
 }
