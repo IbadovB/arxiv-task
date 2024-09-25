@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    }
+body{
+    background-color: 1px solid #e1e1e1;
 }
 
 .header {
@@ -9,10 +12,6 @@
     height: 161px;
     background: #fff;
     border: 2px solid hsl(0, 0%, 0%, 0.1);
-    /* bottom-shadow: 2px solid yellow; */
-
-    display: grid;
-
 }
 
 .first-line {
@@ -167,7 +166,7 @@
 
 
 .pages {
-    display: flex;   
+    display: flex;
     list-style: none;
     width: 400px;
     height: 32px;
@@ -177,7 +176,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 50px;
-    text-align: left;    
+    text-align: left;
     border-bottom: 2px solid #000;
 }
 
@@ -187,7 +186,7 @@
 
 ul li .active2 {
     text-decoration: underline;
-    border: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
     color: #333333;
 
 }
@@ -204,19 +203,16 @@ ul li .third {
 
 .main {
     width: 849px;
-    height: 772px;
-    padding: 0px 0 0 60px;
-    margin: 30px 0 0 350px ;
-    border: 1px solid #1875F0; 
+    height: 1056px;
+    margin: 30px 0 0 350px;
+    border: 1px solid #1875F0;
 }
 
 
 .arxiv {
     width: 72px;
     height: 24px;
-    /* top: 254px; */
-    /* left: 230px; */
-        font-family: Golos;
+    font-family: Golos;
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
@@ -225,25 +221,45 @@ ul li .third {
     padding-top: 20px;
 }
 
-.photos{
-display: flex;
-padding-top: 50px ;
-}
-
-.tree .clock {
-    width: 200px;
-    height: 255px;
+.first-photo {
+    display: flex;
+    padding-top: 50px;
 }
 
 
-.video .video-concratulate {
-    /* background-image:url(https://cdn.pixabay.com/photo/2022/02/24/14/28/art-7032570_1280.jpg); */
-    width: 200px;
-    height: 255px;
-    /* padding: 50px 0 0 50px; */
-   
+.tree,
+.clock,
+.video,
+.video-concratulate {
+    width: 402px;
+    height: 201px;
+}
+
+.photos {
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    border: 2px solid  #000;
+
+}
+
+.museum {
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    border: 2px solid  #000;
+}
+
+.videos {
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    border: 2px solid  #000;
+}
+
+.concratulate {
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    border: 2px solid  #000;
 }
 
 .second-photo {
-display: flex;
+    display: flex;
 }
