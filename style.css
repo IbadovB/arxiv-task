@@ -2,29 +2,30 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    }
-body{
+}
+
+body {
     background-color: 1px solid #e1e1e1;
 }
 
 .header {
-    width: 1500px;
+    width: 1600px;
     height: 161px;
     background: #fff;
     border: 2px solid hsl(0, 0%, 0%, 0.1);
 }
 
 .first-line {
-    width: 1500px;
-    height: 50px;
-    padding: 20px 20px 60px 0.01px;
+    width: 1599.79px;
+    height: 56.24px;
+    padding: 22px 0.01px 0 0.01px;
     display: flex;
 }
 
 .city {
     width: 74px;
     height: 34px;
-    padding: 22px 0 0 40px;
+    padding-left: 20px;
     display: flex;
 }
 
@@ -37,6 +38,7 @@ body{
     line-height: 33.45px;
     text-align: left;
     color: #76767A;
+
 }
 
 .fa-angle-down {
@@ -44,18 +46,27 @@ body{
     height: 9px;
     color: #b3b3b3;
     font-size: 13px;
-    padding: 12px 0 0 15px;
+    padding: 13px 0 0 13px;
 }
 
 .temperature {
+    width: 103.44;
     height: 34px;
-    padding: 22px 0 0 152.02px;
+    padding-left: 20px;
     display: flex;
 }
 
+.fa-cloud-showers-heavy {
+    width: 24.53px;
+    height: 21.96px;
+    padding: 7.14px 0 0 7px;
+    color: #b3b3b3;
+}
+
 .temp-text {
+    width: 67.45;
     height: 34px;
-    padding: 0 350px 0 10px;
+    padding-left: 4.45px;
     font-family: Golos;
     font-size: 16px;
     font-weight: 500;
@@ -65,15 +76,12 @@ body{
     display: flex;
 }
 
-.fa-cloud-showers-heavy {
-    height: 21.96px;
-    padding: 10px 0 0;
-    color: #b3b3b3;
-}
+
 
 .head-text {
+    width: 590px;
     height: 24px;
-    padding: 23px 55px 5px 70px;
+    padding: 4.82px 0 0 300px;
     font-family: Golos;
     font-size: 18.67px;
     font-weight: 1000;
@@ -81,19 +89,18 @@ body{
     letter-spacing: 0.23630349338054657px;
     text-align: center;
     color: #000000;
-
 }
 
 .enter {
-    width: 119px;
+    width: 119.13px;
     height: 34px;
-    padding: 0 40px 0 450px;
+    padding-left: 290px;
     display: flex;
 }
 
 
 .fa-user {
-    padding: 26px 30px 0 0;
+    padding-top: 8.37px;
     color: #9C9C9C;
     width: 17.84px;
     height: 17.84px;
@@ -101,38 +108,40 @@ body{
 }
 
 .enter-text {
-    width: 78px;
+    width: 78.45px;
     height: 34px;
-    left: 1513px;
+    padding-left: 22.83px;
     font-family: Golos;
     font-size: 15.61px;
     font-weight: 500;
     line-height: 33.45px;
     text-align: left;
     color: #999999;
-    padding-top: 19px;
 }
 
 .second-line {
-    width: 1498px;
-    padding: 0px 0 0 31px;
+    width: 1599.79px;
+    height: 82.57px;
     display: flex;
     border-top: 2px solid hsl(0, 0%, 0%, 0.1);
 }
 
 
 .fa-bars {
-    height: 75px;
-    padding: 30px 30px 0 12px;
+    width: 20.07px;
+    height: 100px;
+    padding: 35.72px 47px 30px 43px;
     color: #999999;
     border-right: 2px solid hsl(0, 0%, 0%, 0.1);
 }
 
 .second-line ul {
-    padding: 20px 200px 0 350px;
+    width: 990px;
+    height: 34px;
+    padding: 24.76px 60px 0 187px;
     display: flex;
-    justify-content: space-between;
     list-style: none;
+
 }
 
 .second-line li a {
@@ -147,28 +156,28 @@ body{
 }
 
 .second-line .active {
+    width: 20px;
     color: #333333;
-    padding-bottom: 25px;
+    padding-bottom: 47px;
     border-bottom: 2px solid #1875F0;
-    padding-right: 0px;
 
 }
 
 .fa-magnifying-glass {
-    padding: 30px 0 0 30px;
+    width: 19.5px;
+    height: 100px;
+    padding: 33px 15px 0 25px;
+    color: #999999;
     border-left: 2px solid hsl(0, 0%, 0%, 0.1);
 }
 
-.second-line .left {
-    padding-left: 25px;
 
-}
 
 
 .pages {
     display: flex;
     list-style: none;
-    width: 400px;
+    width: 848px;
     height: 32px;
     padding: 0 200px 50px 0;
     opacity: 0px;
@@ -177,7 +186,8 @@ body{
     font-weight: 400;
     line-height: 50px;
     text-align: left;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #E1E1E1;
+
 }
 
 .pages a {
@@ -201,13 +211,19 @@ ul li .third {
 
 }
 
-.main {
-    width: 849px;
-    height: 1056px;
-    margin: 30px 0 0 350px;
-    border: 1px solid #1875F0;
+.container {
+    position: relative;
 }
 
+
+.main {
+    position: absolute;
+    width: 849px;
+    height: 800px;
+    left: 150px;
+    top: 32px;
+    border-bottom: 1px solid #E1E1E1;
+}
 
 .arxiv {
     width: 72px;
@@ -218,14 +234,8 @@ ul li .third {
     line-height: 24px;
     text-align: left;
     color: #333333;
-    padding-top: 20px;
+    padding-top: 28px;
 }
-
-.first-photo {
-    display: flex;
-    padding-top: 50px;
-}
-
 
 .tree,
 .clock,
@@ -233,33 +243,218 @@ ul li .third {
 .video-concratulate {
     width: 402px;
     height: 201px;
+    border: 1px solid #99999921;
+    border-radius: 5px;
+
+}
+
+
+.first-photo {
+    display: flex;
+    padding-top: 44px;
 }
 
 .photos {
-    padding: 10px 7px 10px 7px;
-    text-align: center;
-    border: 2px solid  #000;
+    width: 410px;
+    height: 256px;
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    box-shadow: 1px 1px #99999921;
+    padding: 3px 2px 0 2px;
 
+}
+
+.photos-text {
+    width: 112px;
+    height: 24px;
+    padding: 11px 0 0 149px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
 }
 
 .museum {
-    padding: 10px 7px 10px 7px;
-    text-align: center;
-    border: 2px solid  #000;
+    width: 410px;
+    height: 256px;
+    margin-left: 28px;
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    box-shadow: 1px 1px #99999921;
+    padding: 3px 2px 0 2px;
 }
 
-.videos {
-    padding: 10px 7px 10px 7px;
-    text-align: center;
-    border: 2px solid  #000;
-}
-
-.concratulate {
-    padding: 10px 7px 10px 7px;
-    text-align: center;
-    border: 2px solid  #000;
+.museum-text {
+    width: 350px;
+    height: 24px;
+    padding: 11px 0 0 125px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
 }
 
 .second-photo {
     display: flex;
+    padding-top: 30px;
+}
+
+.videos {
+    width: 410px;
+    height: 256px;
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    padding: 3px 2px 0 2px;
+    box-shadow: 1px 1px #99999921;
+}
+
+.videos-text {
+    width: 56px;
+    height: 24px;
+    padding: 11px 0 0 178px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.congratulate {
+    width: 410px;
+    height: 256px;
+    margin-left: 28px;
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    padding: 3px 2px 0 2px;
+    box-shadow: 1px 1px #99999921;
+}
+
+.congratulate-text {
+    width: 270px;
+    height: 24px;
+    padding: 11px 0 0 113px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.add-btn {
+    width: 169px;
+    height: 49px;
+    margin: 40px 0 0 339px;
+    border: none;
+    border-radius: 6px;
+    background: #1875F0;
+}
+
+.add-text {
+    width: 63px;
+    height: 47px;
+    padding-left: 48px;
+    color: #FFFFFF;
+    font-family: Golos;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 46.45px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.arctic {
+    position: relative;
+    background: url(https://images.pexels.com/photos/16037982/pexels-photo-16037982/free-photo-of-landscape-with-rocky-mountains-in-snow-and-conifer-trees-in-foreground.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+    top: 900px;
+    left: 150px;
+    width: 849px;
+    height: 295px;
+    border:  0.5px solid #E1E1E1;
+}
+
+.arctic img {
+    position: relative;
+    width: 524px;
+    height: 294px;
+    left: 324px;
+}
+
+.arctic-text {
+    position: absolute;
+    width: 119px;
+    height: 50px;
+    top: 25px;
+    left: 58px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #000000;
+
+}
+
+
+
+.mayak img {
+    position: absolute;
+    width: 157px;
+    height: 99px;
+    top: 75px;
+    left: 58px;
+
+
+}
+
+
+
+.visit {
+    position: absolute;
+    width: 155px;
+    height: 49px;
+    top: 200px;
+    left: 58px;
+    border-radius: 6px;
+    border: 1px solid #1875F0;
+
+
+}
+
+.visit-text {    
+    width: 160px;
+    height: 47px;
+    padding: 1px 25px;
+    top: 1216px;
+    left: 25px;
+    font-family: Golos;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 46.45px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1875F0;
+    
+}
+
+.new {
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    left: 1000px;
+    /* padding: 50px; */
+    border: 3px solid black;
+}
+
+.new1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border: 2px solid red;
+    /* left: 1000px; */
+    /* top: 100px; */
 }
